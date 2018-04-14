@@ -6,6 +6,26 @@ To build our model we will use a two-layered bidirectional RNN with LSTMs on the
 
 This model uses [Conceptnet Numberbatch's](https://github.com/commonsense/conceptnet-numberbatch) pre-trained word vectors. 
 
+
+## dependencies
+
+* pandas
+* numpy
+* nltk
+* tensorflow 1.1
+* python 3
+
+## Install
+```
+pandas:     $ sudo pip install pandas
+numpy:      $ sudo pip install numpy
+nltk:       $ sudo pip install nltk
+tensorflow: $ sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp34-cp34m-linux_x86_64.whl
+
+```
+
+
+## Demo Results
 Here are some examples of reviews and their generated summaries:
 - Description(1): The coffee tasted great and was at such a good price! I highly recommend this to everyone!
 - Summary(1): great coffee
@@ -17,3 +37,9 @@ Here are some examples of reviews and their generated summaries:
 - Summary(3): love it
 
 I wrote an [article](https://medium.com/@Currie32/text-summarization-with-amazon-reviews-41801c2210b) about this project that explains parts of it in detail.
+
+
+## Credit
+ 
+Code credits for this code go to [David Currie](https://github.com/Currie32) I've merely created a wrapper and necessary changes to get people started.
+
